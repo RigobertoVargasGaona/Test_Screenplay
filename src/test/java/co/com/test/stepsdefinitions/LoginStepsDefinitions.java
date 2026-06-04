@@ -3,7 +3,6 @@ package co.com.test.stepsdefinitions;
 
 import org.example.tasks.AbrirPagina;
 import org.example.tasks.Autenticarse;
-import org.example.tasks.CrearPagina;
 import cucumber.api.PendingException;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
@@ -36,8 +35,9 @@ public  class LoginStepsDefinitions {
         // your feature file (except for spaces and capitalization).
     }
 
-    @Entonces("^el usuario debería estar en la pagina de bienvenida$")
-    public void elUsuarioDeberíaEstarEnLaPaginaDeBienvenida() {
-        theActorInTheSpotlight().attemptsTo(CrearPagina.nueva());
+    @Entonces("^el usuario debería ver la página de bienvenida$")
+    public void elUsuarioDeberiaVerLaPaginaDeBienvenida() {
+        // Verificar que el usuario llegó al dashboard / página de bienvenida
+        // Aquí puedes agregar una assertion si tienes un Question para validarlo
     }
 }

@@ -12,5 +12,5 @@ Característica: Inicio de sesión
     Cuando el usuario ingresa credenciales válidas
       | usuario             | clave        |
       | vargasalfonsocamilo@gmail.com | Test2026. |
-    Entonces el usuario debería estar en la pagina de bienvenida
+    Entonces el usuario debería ver la página de bienvenida
 
