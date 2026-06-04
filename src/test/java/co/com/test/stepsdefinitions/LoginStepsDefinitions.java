@@ -3,6 +3,7 @@ package co.com.test.stepsdefinitions;
 
 import org.example.tasks.AbrirPagina;
 import org.example.tasks.Autenticarse;
+import org.example.tasks.CrearPagina;
 import cucumber.api.PendingException;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
@@ -37,7 +38,6 @@ public  class LoginStepsDefinitions {
 
     @Entonces("^el usuario debería estar en la pagina de bienvenida$")
     public void elUsuarioDeberíaEstarEnLaPaginaDeBienvenida() {
-        // Write code here that turns the phrase above into concrete actions
-
+        theActorInTheSpotlight().attemptsTo(CrearPagina.nueva());
     }
 }

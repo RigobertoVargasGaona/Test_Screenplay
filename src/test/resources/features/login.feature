@@ -11,6 +11,6 @@ Característica: Inicio de sesión
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
       | usuario             | clave        |
-      | prueba1@gmail.com | 12345 |
+      | vargasalfonsocamilo@gmail.com | Test2026. |
     Entonces el usuario debería estar en la pagina de bienvenida
 
